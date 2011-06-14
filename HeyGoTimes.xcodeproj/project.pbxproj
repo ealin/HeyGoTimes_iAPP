@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180F904F13A7535300D3529E /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F904B13A7535300D3529E /* ChildBrowserCommand.m */; };
+		180F905013A7535300D3529E /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F904D13A7535300D3529E /* ChildBrowserViewController.m */; };
+		180F905113A7535300D3529E /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180F904E13A7535300D3529E /* ChildBrowserViewController.xib */; };
 		1830D93013A674E600F30C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D92F13A674E600F30C77 /* Foundation.framework */; };
 		1830D93213A674E600F30C77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D93113A674E600F30C77 /* UIKit.framework */; };
 		1830D93413A674E600F30C77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D93313A674E600F30C77 /* CoreGraphics.framework */; };
@@ -19,7 +22,6 @@
 		1830D94213A674E600F30C77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D94113A674E600F30C77 /* QuartzCore.framework */; };
 		1830D94413A674E600F30C77 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D94313A674E600F30C77 /* SystemConfiguration.framework */; };
 		1830D94613A674E600F30C77 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D94513A674E600F30C77 /* MobileCoreServices.framework */; };
-		1830D94A13A674E600F30C77 /* HeyGoTimes-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1830D94913A674E600F30C77 /* HeyGoTimes-Info.plist */; };
 		1830D94D13A674E600F30C77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1830D94B13A674E600F30C77 /* InfoPlist.strings */; };
 		1830D95013A674E600F30C77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830D94F13A674E600F30C77 /* main.m */; };
 		1830D95213A674E700F30C77 /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D95113A674E600F30C77 /* PhoneGap.framework */; };
@@ -37,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180F904A13A7534000D3529E /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildBrowserCommand.h; path = Plugins/ChildBrowserCommand.h; sourceTree = "<group>"; };
+		180F904B13A7535300D3529E /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildBrowserCommand.m; path = Plugins/ChildBrowserCommand.m; sourceTree = "<group>"; };
+		180F904C13A7535300D3529E /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildBrowserViewController.h; path = Plugins/ChildBrowserViewController.h; sourceTree = "<group>"; };
+		180F904D13A7535300D3529E /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildBrowserViewController.m; path = Plugins/ChildBrowserViewController.m; sourceTree = "<group>"; };
+		180F904E13A7535300D3529E /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildBrowserViewController.xib; path = Plugins/ChildBrowserViewController.xib; sourceTree = "<group>"; };
+		180F905213A7584D00D3529E /* PhoneGapCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneGapCommand.h; path = Plugins/PhoneGapCommand.h; sourceTree = "<group>"; };
+		180F905313A7588F00D3529E /* PluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginResult.h; path = Plugins/PluginResult.h; sourceTree = "<group>"; };
 		1830D92B13A674E600F30C77 /* HeyGoTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyGoTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1830D92F13A674E600F30C77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1830D93113A674E600F30C77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -201,6 +210,13 @@
 		1830D96913A674E700F30C77 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				180F905313A7588F00D3529E /* PluginResult.h */,
+				180F905213A7584D00D3529E /* PhoneGapCommand.h */,
+				180F904B13A7535300D3529E /* ChildBrowserCommand.m */,
+				180F904C13A7535300D3529E /* ChildBrowserViewController.h */,
+				180F904D13A7535300D3529E /* ChildBrowserViewController.m */,
+				180F904E13A7535300D3529E /* ChildBrowserViewController.xib */,
+				180F904A13A7534000D3529E /* ChildBrowserCommand.h */,
 				1830D96A13A674E700F30C77 /* README */,
 			);
 			name = Plugins;
@@ -256,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1830D94A13A674E600F30C77 /* HeyGoTimes-Info.plist in Resources */,
 				1830D94D13A674E600F30C77 /* InfoPlist.strings in Resources */,
 				1830D95613A674E700F30C77 /* icon.png in Resources */,
 				1830D95813A674E700F30C77 /* icon@2x.png in Resources */,
@@ -268,6 +283,7 @@
 				1830D96613A674E700F30C77 /* AppDelegate.h in Resources */,
 				1830D96B13A674E700F30C77 /* README in Resources */,
 				1830D97213A6779A00F30C77 /* www in Resources */,
+				180F905113A7535300D3529E /* ChildBrowserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +312,8 @@
 			files = (
 				1830D95013A674E600F30C77 /* main.m in Sources */,
 				1830D96813A674E700F30C77 /* AppDelegate.m in Sources */,
+				180F904F13A7535300D3529E /* ChildBrowserCommand.m in Sources */,
+				180F905013A7535300D3529E /* ChildBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +421,7 @@
 				1830D97013A674E700F30C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

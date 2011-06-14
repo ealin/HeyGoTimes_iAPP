@@ -1,3 +1,8 @@
+
+PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://www.google.com" );
+
+~~~~~~~~~~~~~~~~~~~~~~~~Org Index.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
   <head>
@@ -11,8 +16,6 @@
 	-->
 	<!-- If you application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
 	<script type="text/javascript" charset="utf-8" src="phonegap.0.9.5.1.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="ChildBrowser.js"></script>    
-    
     <script type="text/javascript" charset="utf-8">
 
 
@@ -38,7 +41,6 @@
 	function onBodyLoad()
 	{		
 		document.addEventListener("deviceready",onDeviceReady,false);
-
 	}
 	
 	/* When this function is called, PhoneGap has been initialized and is ready to roll */
@@ -51,21 +53,67 @@
 		//navigator.notification.alert("PhoneGap is working")
 	}
     
-    function load_heygotimes_web()
-    {
-        //navigator.notification.alert("XXX") ;
-        PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://demo.iui-js.org/3rd-party-apps/rail-tickets/index.html" );
-    }
+        
 
     
     </script>
   </head>
     
-  <body onload="onBodyLoad()">
+  <body>
+      
+      <script type="text/javascript">
+          function Ajax(){
+              var xmlHttp;
+              try{	
+                  xmlHttp=new XMLHttpRequest();// Firefox, Opera 8.0+, Safari
+              }
+              catch (e){
+                  try{
+                      xmlHttp=new ActiveXObject("Msxml2.XMLHTTP"); // Internet Explorer
+                  }
+                  catch (e){
+                      try{
+                          xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+                      }
+                      catch (e){
+                          alert("No AJAX!?");
+                          return false;
+                      }
+                  }
+              }
+              
+              xmlHttp.onreadystatechange=function(){
+                  if(xmlHttp.readyState==4){
+                      document.getElementById('heygotimes_web').innerHTML=xmlHttp.responseText;
+                      //setTimeout('Ajax()',10000);
+                  }
+              }
+              xmlHttp.open("GET","http://demo.iui-js.org/3rd-party-apps/rail-tickets/index.html",true);
+              xmlHttp.send(null);
+          }
+          
+          window.onload=function(){
+              //setTimeout('Ajax()',10000);
+              Ajax() ;
+          }
+          </script>      
+      
+      
+      
   	  <h1>Hello HeyGoTimes!</h1>
 
-      <input type="button" onClick="load_heygotimes_web()" value="Read News"></input>  
-        
+      <div id="heygotimes_web" >
+      
+      </div>
+      
+      
+      <!--
+      <iframe src="blank.html" width="100%" height="800" frameborder="1">
+          <p>Your browser does not support iframes.</p>
+      </iframe>
+       -->
+
   </body>
     
 </html>
+
