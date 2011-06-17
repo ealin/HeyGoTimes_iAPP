@@ -10,6 +10,15 @@
 		180F904F13A7535300D3529E /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F904B13A7535300D3529E /* ChildBrowserCommand.m */; };
 		180F905013A7535300D3529E /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F904D13A7535300D3529E /* ChildBrowserViewController.m */; };
 		180F905113A7535300D3529E /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180F904E13A7535300D3529E /* ChildBrowserViewController.xib */; };
+		182CE58813AA69BE0056F0DD /* logo_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE58713AA69BE0056F0DD /* logo_57x57.png */; };
+		182CE58B13AA69E90056F0DD /* logo_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE58A13AA69E90056F0DD /* logo_114x114.png */; };
+		182CE59813AB053D0056F0DD /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE59413AB053D0056F0DD /* arrow_left.png */; };
+		182CE59913AB053D0056F0DD /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE59513AB053D0056F0DD /* arrow_right.png */; };
+		182CE59A13AB053D0056F0DD /* but_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE59613AB053D0056F0DD /* but_refresh.png */; };
+		182CE59B13AB053D0056F0DD /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE59713AB053D0056F0DD /* compass.png */; };
+		182CE5AD13AB13DE0056F0DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE5AC13AB13DE0056F0DD /* Default.png */; };
+		182CE5AF13AB140C0056F0DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182CE5AE13AB140C0056F0DD /* Default@2x.png */; };
+		182CE5B913AB3D580056F0DD /* iphone.css in Resources */ = {isa = PBXBuildFile; fileRef = 182CE5B813AB3D580056F0DD /* iphone.css */; };
 		1830D93013A674E600F30C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D92F13A674E600F30C77 /* Foundation.framework */; };
 		1830D93213A674E600F30C77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D93113A674E600F30C77 /* UIKit.framework */; };
 		1830D93413A674E600F30C77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D93313A674E600F30C77 /* CoreGraphics.framework */; };
@@ -25,12 +34,7 @@
 		1830D94D13A674E600F30C77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1830D94B13A674E600F30C77 /* InfoPlist.strings */; };
 		1830D95013A674E600F30C77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830D94F13A674E600F30C77 /* main.m */; };
 		1830D95213A674E700F30C77 /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D95113A674E600F30C77 /* PhoneGap.framework */; };
-		1830D95613A674E700F30C77 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1830D95513A674E700F30C77 /* icon.png */; };
-		1830D95813A674E700F30C77 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1830D95713A674E700F30C77 /* icon@2x.png */; };
 		1830D95A13A674E700F30C77 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1830D95913A674E700F30C77 /* icon-72.png */; };
-		1830D95D13A674E700F30C77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1830D95C13A674E700F30C77 /* Default.png */; };
-		1830D95F13A674E700F30C77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1830D95E13A674E700F30C77 /* Default@2x.png */; };
-		1830D96113A674E700F30C77 /* Default~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1830D96013A674E700F30C77 /* Default~iPad.png */; };
 		1830D96313A674E700F30C77 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1830D96213A674E700F30C77 /* PhoneGap.plist */; };
 		1830D96613A674E700F30C77 /* AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 1830D96513A674E700F30C77 /* AppDelegate.h */; };
 		1830D96813A674E700F30C77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830D96713A674E700F30C77 /* AppDelegate.m */; };
@@ -46,6 +50,15 @@
 		180F904E13A7535300D3529E /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildBrowserViewController.xib; path = Plugins/ChildBrowserViewController.xib; sourceTree = "<group>"; };
 		180F905213A7584D00D3529E /* PhoneGapCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneGapCommand.h; path = Plugins/PhoneGapCommand.h; sourceTree = "<group>"; };
 		180F905313A7588F00D3529E /* PluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginResult.h; path = Plugins/PluginResult.h; sourceTree = "<group>"; };
+		182CE58713AA69BE0056F0DD /* logo_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_57x57.png; path = ../logo_57x57.png; sourceTree = "<group>"; };
+		182CE58A13AA69E90056F0DD /* logo_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_114x114.png; path = ../logo_114x114.png; sourceTree = "<group>"; };
+		182CE59413AB053D0056F0DD /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left.png; path = Resources/icons/arrow_left.png; sourceTree = "<group>"; };
+		182CE59513AB053D0056F0DD /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_right.png; path = Resources/icons/arrow_right.png; sourceTree = "<group>"; };
+		182CE59613AB053D0056F0DD /* but_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = but_refresh.png; path = Resources/icons/but_refresh.png; sourceTree = "<group>"; };
+		182CE59713AB053D0056F0DD /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass.png; path = Resources/icons/compass.png; sourceTree = "<group>"; };
+		182CE5AC13AB13DE0056F0DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		182CE5AE13AB140C0056F0DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		182CE5B813AB3D580056F0DD /* iphone.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = iphone.css; path = www/iphone.css; sourceTree = "<group>"; };
 		1830D92B13A674E600F30C77 /* HeyGoTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyGoTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1830D92F13A674E600F30C77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1830D93113A674E600F30C77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -64,12 +77,7 @@
 		1830D94E13A674E600F30C77 /* HeyGoTimes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeyGoTimes-Prefix.pch"; sourceTree = "<group>"; };
 		1830D94F13A674E600F30C77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1830D95113A674E600F30C77 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
-		1830D95513A674E700F30C77 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
-		1830D95713A674E700F30C77 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
 		1830D95913A674E700F30C77 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
-		1830D95C13A674E700F30C77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
-		1830D95E13A674E700F30C77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
-		1830D96013A674E700F30C77 /* Default~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iPad.png"; path = "Resources/splash/Default~iPad.png"; sourceTree = "<group>"; };
 		1830D96213A674E700F30C77 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
 		1830D96513A674E700F30C77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1830D96713A674E700F30C77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +119,7 @@
 		1830D91D13A674E600F30C77 = {
 			isa = PBXGroup;
 			children = (
+				182CE5B813AB3D580056F0DD /* iphone.css */,
 				1830D97113A6779A00F30C77 /* www */,
 				1830D94713A674E600F30C77 /* HeyGoTimes */,
 				1830D92E13A674E600F30C77 /* Frameworks */,
@@ -181,8 +190,12 @@
 		1830D95413A674E700F30C77 /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				1830D95513A674E700F30C77 /* icon.png */,
-				1830D95713A674E700F30C77 /* icon@2x.png */,
+				182CE58A13AA69E90056F0DD /* logo_114x114.png */,
+				182CE58713AA69BE0056F0DD /* logo_57x57.png */,
+				182CE59413AB053D0056F0DD /* arrow_left.png */,
+				182CE59513AB053D0056F0DD /* arrow_right.png */,
+				182CE59613AB053D0056F0DD /* but_refresh.png */,
+				182CE59713AB053D0056F0DD /* compass.png */,
 				1830D95913A674E700F30C77 /* icon-72.png */,
 			);
 			name = icons;
@@ -191,9 +204,8 @@
 		1830D95B13A674E700F30C77 /* splash */ = {
 			isa = PBXGroup;
 			children = (
-				1830D95C13A674E700F30C77 /* Default.png */,
-				1830D95E13A674E700F30C77 /* Default@2x.png */,
-				1830D96013A674E700F30C77 /* Default~iPad.png */,
+				182CE5AE13AB140C0056F0DD /* Default@2x.png */,
+				182CE5AC13AB13DE0056F0DD /* Default.png */,
 			);
 			name = splash;
 			sourceTree = "<group>";
@@ -273,17 +285,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1830D94D13A674E600F30C77 /* InfoPlist.strings in Resources */,
-				1830D95613A674E700F30C77 /* icon.png in Resources */,
-				1830D95813A674E700F30C77 /* icon@2x.png in Resources */,
 				1830D95A13A674E700F30C77 /* icon-72.png in Resources */,
-				1830D95D13A674E700F30C77 /* Default.png in Resources */,
-				1830D95F13A674E700F30C77 /* Default@2x.png in Resources */,
-				1830D96113A674E700F30C77 /* Default~iPad.png in Resources */,
 				1830D96313A674E700F30C77 /* PhoneGap.plist in Resources */,
 				1830D96613A674E700F30C77 /* AppDelegate.h in Resources */,
 				1830D96B13A674E700F30C77 /* README in Resources */,
 				1830D97213A6779A00F30C77 /* www in Resources */,
 				180F905113A7535300D3529E /* ChildBrowserViewController.xib in Resources */,
+				182CE58813AA69BE0056F0DD /* logo_57x57.png in Resources */,
+				182CE58B13AA69E90056F0DD /* logo_114x114.png in Resources */,
+				182CE59813AB053D0056F0DD /* arrow_left.png in Resources */,
+				182CE59913AB053D0056F0DD /* arrow_right.png in Resources */,
+				182CE59A13AB053D0056F0DD /* but_refresh.png in Resources */,
+				182CE59B13AB053D0056F0DD /* compass.png in Resources */,
+				182CE5AD13AB13DE0056F0DD /* Default.png in Resources */,
+				182CE5AF13AB140C0056F0DD /* Default@2x.png in Resources */,
+				182CE5B913AB3D580056F0DD /* iphone.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +396,9 @@
 				GCC_PREFIX_HEADER = "HeyGoTimes/HeyGoTimes-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "HeyGoTimes/HeyGoTimes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,7 +414,9 @@
 				GCC_PREFIX_HEADER = "HeyGoTimes/HeyGoTimes-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "HeyGoTimes/HeyGoTimes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
