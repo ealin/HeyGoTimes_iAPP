@@ -17,6 +17,7 @@
 	<!-- If you application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
 	<script type="text/javascript" charset="utf-8" src="phonegap.0.9.5.1.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="ChildBrowser.js"></script>    
+    <script type="text/javascript" charset="utf-8" src="FBConnect.js"></script>    
     
     <script type="text/javascript" charset="utf-8">
 
@@ -39,7 +40,8 @@
 		// TODO: do something with the url passed in.
 	}
 	*/
-	
+
+        
 	function onBodyLoad()
 	{		
 		document.addEventListener("deviceready",onDeviceReady,false);
@@ -52,15 +54,19 @@
 	for more details -jm */
 	function onDeviceReady()
 	{
-		// do your thing!
-		//navigator.notification.alert("PhoneGap is working")
 	}
+        
+        
     
     function load_heygotimes_web()
     {
+        
+        
+        
         //navigator.notification.alert("XXX") ;
         //PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://heygotimes.heroku.com/mobile/index" );
-        PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://localhost:3000/mobile/index" );
+        //PhoneGap.exec("ChildBrowserCommand.showWebPage", "https://github.com/purplecabbage/phonegap-plugins/tree/682744e7d3b5f7dd15a8b6b425b88d3e7cd3340b" );
+        PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://localhost:3000/mobile/index/" );
     }
 
     
