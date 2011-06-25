@@ -37,19 +37,34 @@
 	{
 	}
                 
-    
+    function reachableCallback(reachability) 
+    {
+        var networkState = reachability.code;
+        var site = "http://localhost:3000/mobile/index/" ;
+        
+        if(networkState == 0)
+            alert("網路未連結, 請稍後再試！") ;
+        else
+            PhoneGap.exec("ChildBrowserCommand.showWebPage", site );
+            
+        //alert('Connection type: ' + networkState + ' - ' + reachability.message);            
+        
+    }
+        
+        
     function load_heygotimes_web()
     {
-        //navigator.notification.alert("XXX") ;
-        //PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://heygotimes.heroku.com/mobile/index" );
-        PhoneGap.exec("ChildBrowserCommand.showWebPage", "http://localhost:3000/mobile/index/" );
+  
+        navigator.network.isReachable("heygotimes.heroku.com", reachableCallback, {});
+        
+         
     }
 
     
     </script>
   </head>
  
-  <body onload="onBodyLoad()">
+  <body background="background.jpg" onload="onBodyLoad()">
       
       <div align = "center">
         <img src="logo.png" />

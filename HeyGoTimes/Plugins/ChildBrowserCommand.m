@@ -34,7 +34,6 @@
 	
 	NSString *url = (NSString*) [arguments objectAtIndex:0];
 	
-
 	[childBrowser loadURL:url  ];
 
 }

@@ -35,8 +35,10 @@
 	if ([launchOptions objectForKey:[keyArray objectAtIndex:0]]!=nil) 
 	{
 		NSURL *url = [launchOptions objectForKey:[keyArray objectAtIndex:0]];
-		self.invokeString = [url absoluteString];
-		NSLog(@"HeyGoTimes launchOptions = %@",url);
+		
+        self.invokeString = [url absoluteString];
+		
+        NSLog(@"HeyGoTimes launchOptions = %@",url);
 	}
 	
 	return [super application:application didFinishLaunchingWithOptions:launchOptions];

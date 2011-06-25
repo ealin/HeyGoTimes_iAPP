@@ -43,7 +43,7 @@
 	webView.delegate = self;
 	webView.scalesPageToFit = TRUE;
 	webView.backgroundColor = [UIColor whiteColor];
-	NSLog(@"View did load",@"");
+	//NSLog(@"View did load",@"");
 }
 
 
@@ -60,7 +60,7 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
-	NSLog(@"View did UN-load",@"");
+	//NSLog(@"View did UN-load",@"");
 }
 
 
@@ -167,7 +167,8 @@
 
 
 - (void)webViewDidStartLoad:(UIWebView *)sender {
-	addressLabel.text = @"Loading...";
+	
+    addressLabel.text = @"載入中, 請稍後...";
 	backBtn.enabled = webView.canGoBack;
 	fwdBtn.enabled = webView.canGoForward;
 	
@@ -179,7 +180,7 @@
 {
 	NSURLRequest *request = webView.request;
 	NSLog(@"New Address is : %@",request.URL.absoluteString);
-	addressLabel.text = request.URL.absoluteString;
+	addressLabel.text = @"" ; //request.URL.absoluteString;
 	backBtn.enabled = webView.canGoBack;
 	fwdBtn.enabled = webView.canGoForward;
 	[ spinner stopAnimating ];
